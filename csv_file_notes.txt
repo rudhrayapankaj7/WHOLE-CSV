@@ -1,0 +1,27 @@
+excel -- ex
+
+csv - comma seperated value
+
+id, name, age  - heading   - plain text csv
+1, "Harshal", 25
+2, "Diksha", 26
+3, "Kharanshu", 22
+
+formatting, 
+
+
+
+- windows -- open cmd -  start notepad  abs_filepath
+- linux -- cat filepath   -- vi filepath  -- insert -- data insert -- esc : w q enter
+
+
+"C:\ProgramData\MySQL\MySQL Server 8.0\my.ini"   -- 
+
+secure-file-priv="C:/ProgramData/MySQL/MySQL Server 8.0/Uploads"
+- open services.msc in windows+r   --- 
+- restart MySQL
+
+ERROR 1290 (HY000): The MySQL server is running with the --secure-file-priv option so it cannot execute this statement
+mysql> SHOW VARIABLES LIKE "secure_file_priv";
+
+-- 

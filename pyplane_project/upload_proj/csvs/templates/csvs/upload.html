@@ -1,0 +1,16 @@
+{% extends 'csvs/base.html'   %}
+
+{% block title %}
+main page
+{% endblock title %}
+
+
+{% block content %}
+<from action="" method="POST" class="ui form" enctype="multipart/form-data">
+    {% csrf_token %}
+
+    {{form}}
+
+    <button type="submit" class="btn btn-success" >confirm</button>
+</from>
+{% endblock content %} 
